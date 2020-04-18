@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto serif", serif;
+  font-family: "Noto Serif", serif;
 }
 
 em {
@@ -8,7 +8,7 @@ em {
 
 header,
 footer {
-  background color: #70ad55;
+  background-color: #70ad55;
   color: #fff;
 }
 
@@ -27,61 +27,63 @@ textarea {
   border-color: #6e8c62;
 }
 
-text area {
-  height: 10rem:
+textarea {
+  height: 10rem;
 }
 
 .btn {
   background-color: #6e8c62;
-  border-color: ##6e8c62;
+  border-color: #6e8c62;
   color: #fff;
 }
 
-.eizabeth,
-.liz{
-  margin: 0;
-}
+@media only screen and (min-width: 38em) {
 
-.name {
-  padding: 0.5rerm 0:
-}
+  .elizabeth,
+  .liz {
+    margin: 0;
+  }
 
-.username {
-  padding: 0 0 0.5rem;
-}
+  .name {
+    padding: 0 .5rem 0 0;
+  }
 
-.brith {
-  padding: 2rem;
-  margin: 0;
-}
+  .username {
+    padding: 0 0 0 .5rem;
+  }
 
-.size {
-  padding: 2rem 0 0.5rem;
-  margin: 0;
-}
+  .birth {
+    padding: 2rem .5rem 1rem 0;
+    margin: 0;
+  }
 
-.email {
-  padding: 2rem 0 0.5rem
-}
+  .size {
+    padding: 2rem 0 0 .5rem;
+    margin: 0;
+  }
 
-.number {
-padding: .5rem o.13rem .5rem;
-}
+  .email {
+    padding: .7rem .5rem 1rem 0;
+  }
 
-.street {
-  padding .3rem .5rem 0 0;
-}
+  .number {
+    padding: .7rem 0 1.3rem .5rem;
+  }
 
-city {
-  padding:.3rem 0 0.5rem;
-}
+  .street {
+    padding: .3rem .5rem 0 0;
+  }
 
-.province {
-  padding 1.5rem .5rem 0 0;
-}
+  .city {
+    padding: .3rem 0 0 .5rem;
+  }
 
-.code {
-  padding: 1.5rem 0 1rem .5rem;
-}
+  .province {
+    padding: 1.5rem .5rem 0 0;
+  }
+
+  .code {
+    padding: 1.5rem 0 1rem .5rem;
+  }
 
 }
